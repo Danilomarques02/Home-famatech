@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar{
+    display: flex;
+    align-items:center;
+    background-color:#005095;
+    height:84px ;
+}
+
+
+.navbar img{
+    margin:91px ;
+    width: 255px;
+}
+
+.barra-pesquisa input[type="search"] {
+    width: 589px;
+    padding: 10px 40px 10px 10px; 
+    font-size: 14px;
+}
+.img-perfil{
+    margin: 90px;
+}
+.img-perfil img{
+    margin: 40px;
+    height: 24px;
+    width: 24px;
+
+}
+.categorias {
+    display: flex;
+    align-items: center;
+}
+
+.categorias a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.categorias img {
+    margin: 90px;
+    margin-right: 8px; 
+    height: 24px;
+    width: 24px;
+}
+
+
+
+.menu{
+    margin: 91px;
+}
+
+    .navbar2{
+        display: flex;
+        align-items:center;
+        background-color:#008BD2;
+        height:48px ;
+    }
+.navbar2 ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: auto; 
+    margin: -120px;
+    font-family: 'Montserrat', sans-serif;
+
+  } 
+.navbar2 ul li{
+    color: rgb(255, 255, 255);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 201px;
+    background:#005095 ;
+    display:flex;
+  }
+  .contatos ul li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
